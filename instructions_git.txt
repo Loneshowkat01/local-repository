@@ -1,0 +1,69 @@
+configure git
+git config --global user.name"showkat"
+git config --global user.email"loneshowkatsss6@gmail.com"
+
+basic commands of git:
+Clone:
+ cloning a repository on our local machine (clone means to make duplicate of repo from REMOTE(github) to LOCAL(laptop or pc)) :::clone means to copy from 
+ github to our pc 
+"git clone<-some link->" type in vs code terminal :::letss do cloning by copying https by clicking on code of repository we made
+
+
+
+therfore first_showkatrepository is sucessfully cloned to our folder GIT demo
+
+"cd" = basic terminal command : means change directory(fol)
+example :cd first_showkatrepository we will enter first_showkatrepository folder inside git demo (where our repository items are saved)
+
+
+"ls" commond ="list files" it will show all files in this folder
+
+
+status command:
+"git staus"  :shows whether code thath is on git hub is also here on pc or not (if yes it will show up to date if code in local sys is not same
+to what is on github it will show modified)
+
+commit means to modify on github ;;;; (add(modify) + commit)
+
+
+lets now create new file in first_showkatrepository name it index.htms  lets c what vs code vll say :::it will show "untracked file" (index.html) (
+    because we haven't taken screen shot of this file / we have not commit it on git hub
+)
+
+diffrent status shown in terminal111111;
+1=modified  (when we change in commited file /or of which we have taken screen shot/or commit)
+2=untracked (when we make new file that git don't know what changes are done it takes it as new file )
+3=unmodified(no change have been done in file)
+4=staged (if we add file here (cmd :"git add index.html") but don't commit it will show new file   it will show "file is ready to be commited")
+ it has added file index.htm but still showing modified for readme we need to add that as well (cmd:git add README.md)  OR (cmd : "git add .")
+
+now both files become : "changes to be commited"
+
+commit:(it is record of the change"you have added no commit it menas tie him") (cmd:  git commit  m "message") :message :what have u done /change
+
+new status:
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits) (git hub is still not updated need to upload "local repo" to remote repo) 
+
+nothing to commit
+
+PUSH COMMAND:(to upload local(our laptop) repo content to remote(git hub)) 
+ (cmd: "git push origin main") (push to origna(branch 1) into main) in git hub
+
+
+ #now lets make local repository and send it to remote opposite of what we did early (i.e we made repoistory on git hub and clone it to local)
+init command:
+used to create a new git repo
+git remote add origin<link>
+git remote -v (to verify remote)  i.e when i push where it goes (remote (github))
+git branch  (to chek branch)
+git branch -M idli (to rename branch as i name idli )
+git push origin main
+lets create new folder in GIT DEMO
+ (lets make it git repo ::::but how to chk it is git repo:::when we chk  hidden files :: ls -a  to chk there will be .git)
+ so we use (cmd "get init" ) to make git repo    chk now by ls -a   it vll show in hidden file .git (therfore local file became :::git repo file)
+
+ lets create index.html and style.css and "add" to repository and "commit" them
+
+ now all these changes were  made on local system::::lets upload on github...i.e clone LOCAL to REMOTE
+ go to git-hub --repository-new (in which u r adding local repo)

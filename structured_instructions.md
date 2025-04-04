@@ -19,7 +19,6 @@ git clone https://github.com/yourusername/repository.git
 - The repository is now cloned successfully to your local machine.
 
 ---
-
 ## 2. Navigating in Terminal
 - **Change Directory:**
   ```bash
@@ -146,6 +145,24 @@ Instead of cloning from GitHub, we create a local repository first, then push it
    ```bash
    git push origin main
    ```
+## TILL now:
+ **Github repo>>clone>>changes>>add>>commit>>push**
+
+1. **branches:: when lot of devlopers are working on same project they work in diffrent branches and finally merege into one**
+   
+   **BRANCH commands**
+   ```bash
+   1. git branch (to chek in which branch you are in)
+   2. git branch -M main (to change the name of branch)
+   3. git chekout <-new branch name-> (to navigate into new branch)
+   4. git checkout -b<-new branch name ->  (to create new branch)
+   5. git delete -d<-branch name->  (to delete branch)
+   ```
+
+
+
+
+
 
 
 

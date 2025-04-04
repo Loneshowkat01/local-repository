@@ -159,7 +159,14 @@ Instead of cloning from GitHub, we create a local repository first, then push it
    5. git delete -d<-branch name->  (to delete branch)
    6.
    ```
+# we can merge two branches or find diffrence between branches
+**commands**
+way 1  (done in git)
+1. git dif<-branch name>  to compare files ,branches
+2. git merge <-branch name->    to merge two branches
 
+way 2
+create PR (in git hun)
 
 
 

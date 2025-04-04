@@ -157,6 +157,7 @@ Instead of cloning from GitHub, we create a local repository first, then push it
    3. git chekout <-new branch name-> (to navigate into new branch)
    4. git checkout -b<-new branch name ->  (to create new branch)
    5. git delete -d<-branch name->  (to delete branch)
+   6.
    ```
 
 

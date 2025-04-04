@@ -30,7 +30,7 @@ lets now create new file in first_showkatrepository name it index.htms  lets c w
     because we haven't taken screen shot of this file / we have not commit it on git hub
 )
 
-diffrent status shown in terminal111111;
+diffrent status shown in terminal;
 1=modified  (when we change in commited file /or of which we have taken screen shot/or commit)
 2=untracked (when we make new file that git don't know what changes are done it takes it as new file )
 3=unmodified(no change have been done in file)

@@ -143,7 +143,7 @@ Instead of cloning from GitHub, we create a local repository first, then push it
    git branch -M main
    ```
 7. **Push the local repository to GitHub:**
-   ```
+   ```bash
    git push origin main
    ```
 

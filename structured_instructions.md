@@ -163,16 +163,18 @@ Instead of cloning from GitHub, we create a local repository first, then push it
    ```
 # we can merge two branches or find diffrence between branches
 **commands**
+```bash
 way 1  (done in git)
 1. git dif<-branch name>  to compare files ,branches
 2. git merge <-branch name->    to merge two branches
-
+```
 way 2
 create PR(pull request) (in git hub)
 # pull command  (used to fetch and download content from remote repo and immedately update local repo to match content )
 when you make changes in remote (git hub) to bring them to local (pc) we use "pull" command
+ ```bash
  command: "git pull origin main"    (going to bring changes from remote main to local)
-
+```
 # resolve merge conflicts: if two persons are making changes in same file and same line git is unable to decide wheter person1 changes are implemented or person2 changes :::so we get merge conflict
 
 

@@ -173,6 +173,6 @@ create PR(pull request) (in git hub)
 when you make changes in remote (git hub) to bring them to local (pc) we use "pull" command
  command: "git pull origin main"    (going to bring changes from remote main to local)
 
-
+# resolve merge conflicts: if two persons are making changes in same file and same line git is unable to decide wheter person1 changes are implemented or person2 changes :::so we get merge conflict
 
 

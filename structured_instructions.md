@@ -169,10 +169,10 @@ way 1  (done in git)
 
 way 2
 create PR(pull request) (in git hub)
+# pull command  (used to fetch and download content from remote repo and immedately update local repo to match content )
+when you make changes in remote (git hub) to bring them to local (pc) we use "pull" command
+ command: "git pull origin main"    (going to bring changes from remote main to local)
 
 
-
-
-kali prasad
 
 

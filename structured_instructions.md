@@ -145,7 +145,7 @@ Instead of cloning from GitHub, we create a local repository first, then push it
    ```bash
    git push origin main
    ```
-## TILL now:
+## WHen working with local git
  **Github repo>>clone>>changes>>add>>commit>>push**
 
 1. **branches:: when lot of devlopers are working on same project they work in diffrent branches and finally merege into one**
@@ -160,7 +160,14 @@ Instead of cloning from GitHub, we create a local repository first, then push it
      in new branch you can add features to file that is  already in main branch>>>
      so when you open same file in main branch features added in new branch to this file would be missing
    ```
+# we can merge two branches or find diffrence between branches
+**commands**
+way 1  (done in git)
+1. git dif<-branch name>  to compare files ,branches
+2. git merge <-branch name->    to merge two branches
 
+way 2
+create PR(pull request) (in git hub)
 
 
 

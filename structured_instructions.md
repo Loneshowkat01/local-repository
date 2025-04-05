@@ -156,7 +156,7 @@ Instead of cloning from GitHub, we create a local repository first, then push it
    2. git branch -M main (to change the name of branch)
    3. git chekout <-new branch name-> (to navigate into new branch)
    4. git checkout -b<-new branch name ->  (to create new branch)
-   5. git delete -d<-branch name->  (to delete branch)
+   5. git branch -d<-branch name->  (to delete branch)
      in new branch you can add features to file that is  already in main branch>>>
      so when you open same file in main branch features added in new branch to this file would be missing
    ```
@@ -172,6 +172,6 @@ create PR(pull request) (in git hub)
 
 
 
-
+kali prasad
 
 
